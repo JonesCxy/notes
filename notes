@@ -1,0 +1,23 @@
+XMG11期全套：（基础班 + 就业班）
+链接：http://pan.baidu.com/s/1jIMz9AI 密码：cvew
+解压密码：hTTp://WWW.MuKeDaBa.COM/forum-41-1.html
+
+
+https://github.com/zhouhuanqiang/LearningIOS
+
+
+
+MRC没有strong weak,局部变量对象就是相当于基本数据类型
+MRC给成员属性赋值,一定要使用set方法(self.赋值),不能直接访问下划线成员属性赋值
+
+MAC block
+只要block中引用了外部局部变量,block在栈中,其他的在全局区
+只能使用copy,不能使用retain,因为使用retain,block还是在栈里面
+
+
+ARC:只要一个对象没有被强指针修饰就会被销毁,默认局部变量对象都是强指针引用,存放到堆里面
+ARC block
+只要block中引用了外部局部变量,block在堆中,其他的在全局区(相当于局部变量)
+block最好使用strong,不要使用copy
+
+先调用方法,看看调用过程中需要什么条件,再实现
